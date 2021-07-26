@@ -1,44 +1,8 @@
 import React from "react";
-import "./homepage.styles.scss";
-import "./homepage.component";
+import HomePage from "./pages/homepage/homepage.component";
 
 function App() {
-  return (
-    <div className="homepage">
-      <div className="directory-menu">
-        <div className="menu-item">
-          <div className="content">
-            <div className="title">Books</div>
-            <span className="subtitle">Maths</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <div className="title">Books</div>
-            <span className="subtitle">Maths</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <div className="title">Books</div>
-            <span className="subtitle">Maths</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <div className="title">Books</div>
-            <span className="subtitle">Maths</span>
-          </div>
-        </div>
-        <div className="menu-item">
-          <div className="content">
-            <div className="title">Books</div>
-            <span className="subtitle">Maths</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
